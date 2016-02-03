@@ -17,10 +17,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="gVU-yk-nDd">
+                                <rect key="frame" x="-628" y="-314" width="1320" height="1093"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REH-Hi-yyK">
                                 <rect key="frame" x="108" y="319" width="158" height="30"/>
                                 <state key="normal" title="Such a cruel race!"/>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BANZAI" translatesAutoresizingMaskIntoConstraints="NO" id="q5h-d8-MVA">
+                                <rect key="frame" x="20" y="28" width="335" height="195"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -28,7 +34,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="317.5" y="366.5"/>
+            <point key="canvasLocation" x="176.5" y="161.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BANZAI" width="343" height="92"/>
+        <image name="bg" width="1667" height="1667"/>
+    </resources>
 </document>
